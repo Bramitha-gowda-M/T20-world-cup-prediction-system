@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 import numpy as np
 #import xgboost
-from xgboost import XGBRegressor
+#from xgboost import XGBRegressor
 
 pipe = pickle.load(open('pipe.pkl','rb'))
 
